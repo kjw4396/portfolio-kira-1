@@ -97,3 +97,15 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+  }
+
+  .example-link {
+    display: block;
+    text-align: center;
+  }
+}
